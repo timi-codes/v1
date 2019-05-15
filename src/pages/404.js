@@ -6,8 +6,10 @@ import SEO from "../components/seo"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div class="name">Brittany Chiang</div>
+    <img src="{{site.baseurl}}/img/emojis/thinking-face.png" alt="hh"/>
+    <h1>Hmmm...</h1>
+    <h2>Looks like there's nothing here.<br/>Maybe you should go back <a href="{{site.url}}">home</a></h2>
   </Layout>
 )
 
