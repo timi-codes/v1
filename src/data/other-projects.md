@@ -24,7 +24,7 @@ projects:
       - "HTML"
 
   - name: "Personal Website V1"
-    description: "I made a conversion of bchaing7 portfolio v3 written with jekylls to Gatsby"
+    description: "I made a conversion of bchaing7 portfolio v3 written with jekylls to Gatsby for the first version of my personal website"
     link: "ueueue"
     show: true
     tags:
