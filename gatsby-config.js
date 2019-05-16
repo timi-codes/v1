@@ -53,5 +53,23 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@config": "src/config",
+          "@fonts": "src/fonts",
+          "@components": "src/components",
+          "@fonts": "src/fonts",
+          "@pages": "src/pages",
+          "@data": "src/data",
+          "@images": "src/images",
+          "@styles": "src/styles",
+        },
+        extensions: [
+          "js",
+        ],
+      }
+    },
   ],
 }
