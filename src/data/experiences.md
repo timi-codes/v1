@@ -2,7 +2,7 @@
 companies:
   - name: "Andela"
     url: "https://andela.com/"
-    time: "Jun 2018 - Present"
+    time: "Jun 2019 - Present"
     position: "Software Engineer"
     date: "2019-06-03"
 
