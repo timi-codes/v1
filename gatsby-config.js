@@ -60,7 +60,6 @@ module.exports = {
           "@config": "src/config",
           "@fonts": "src/fonts",
           "@components": "src/components",
-          "@resume": "src/images/resume.pdf",
           "@fonts": "src/fonts",
           "@pages": "src/pages",
           "@data": "src/data",
