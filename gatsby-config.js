@@ -68,6 +68,8 @@ module.exports = {
         },
         extensions: [
           "js",
+          "pdf",
+          "jsx"
         ],
       }
     },
