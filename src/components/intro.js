@@ -12,7 +12,7 @@ const Intro = ({ data }) => {
 
             <h2 className="intro__tagline">I'm 
                 <span className="name"> {frontmatter.name}</span>{frontmatter.subtitle}
-                <span className="emoji rocket"></span>
+                <span className="emoji technologist"></span>
             </h2>
 
             <h3 className="intro__contact">

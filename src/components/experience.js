@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import resume from '@images/resume.pdf';
+import resume from '@resume';
 
 const Experience =  ({data}) => {
     const { frontmatter } = data[0].node;
@@ -25,7 +25,7 @@ const Experience =  ({data}) => {
                 }
                 </div>
 
-                {/* <a href={resume} target="_blank" rel="nofollow noopener noreferrer" className="arrow-link">View My Resume</a> */}
+                <a href={resume} target="_blank" rel="nofollow noopener noreferrer" className="arrow-link">View My Resume</a>
             </div>
         </section>
     )
