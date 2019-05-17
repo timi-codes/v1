@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import resume from '@images/resume.pdf';
+import resume from '../images/resume.pdf';
 
 const Experience =  ({data}) => {
     const { frontmatter } = data[0].node;
